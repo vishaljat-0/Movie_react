@@ -1,8 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
-import Tv from '../Components/Sidebarpages/Tv'
- import  movieReducer  from './reducers/Movieslice'
- import  tvReducer from './reducers/tvSlice'
- import  personReducer  from './reducers/personSlice'
+ import  movieReducer from './reducers/Movieslice.js'
+ import  tvReducer from './reducers/tvSlice.js'
+ import  personReducer   from './reducers/personSlice.js'
 
 export const store = configureStore({
   reducer: {
