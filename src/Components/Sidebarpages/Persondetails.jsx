@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams, useNavigate, Link } from "react-router-dom";
-import { fetchPerson } from "../../store/actions/personAction";
-import { removeperson } from "../../store/reducers/personSlice";
+import { fetchPerson } from "../../store/actions/personAction.js";
+import { removeperson } from "../../store/reducers/personSlice.js";
 import Loader from "../../images/Loader";
 import Noimage from "../../images/Noimage.png";
 

@@ -1,8 +1,8 @@
 // src/pages/Tvdetails/Tvdetails.jsx
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { removetv } from "../../store/reducers/tvSlice";
-import { fetchTv } from "../../store/actions/tvaction";   // ✅ use fetchTv
+import { removetv } from "../../store/reducers/tvSlice.js";
+import { fetchTv } from "../../store/actions/tvaction.js";   // ✅ use fetchTv
 import { Link, useNavigate, useParams } from "react-router-dom";
 import Loader from "../../images/Loader";
 import Noimage from "../../images/Noimage.png";

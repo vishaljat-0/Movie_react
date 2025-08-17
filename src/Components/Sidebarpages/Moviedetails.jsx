@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchMovie, removemovie } from "../../store/actions/movieaction";
+ import { fetchMovie,removemovie } from "../../store/actions/movieAction.js";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import Loader from "../../images/Loader";
 import Noimage from "../../images/Noimage.png";
